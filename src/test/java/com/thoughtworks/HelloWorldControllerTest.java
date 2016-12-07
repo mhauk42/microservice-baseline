@@ -12,7 +12,7 @@ public class HelloWorldControllerTest {
 	@Test
 	public void shouldAnswerHello() {
 		String answer = subject.helloWorld();
-		assertThat(answer,is("Hello World!"));
+		assertThat(answer,is("Hello World"));
 		
 	}
 }
